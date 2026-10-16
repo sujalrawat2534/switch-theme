@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+
+<body class="bg-white p-5 text-black dark:bg-black dark:text-white"></body>
+
+    <div class="grid gap-5 md:grid-cols-3">
+
+        <div class="rounded-xl border p-3">
+            <img src="https://picsum.photos/300/150" class="w-full rounded-lg">
+            <h2 class="mt-2 text-xl font-bold">Random image</h2>
+            <p>above an image.</p>
+        </div>
+
+        <div class="rounded-xl border p-5">
+            <h2 class="text-xl font-bold">Tailwind CSS</h2>
+            <p class="mt-2">Tailwind CSS helps create beautiful websites easily.</p>
+        </div>
+
+        <div class="rounded-xl border p-5">
+            <h2 class="text-xl font-bold">Responsive Design</h2>
+            <p class="mt-2">Responsive design works on mobile and desktop.</p>
+        </div>
+
+    </div>
+
+<button id="btn"
+class="mt-5 rounded-lg border border-black px-4 py-2 transition duration-300 hover:bg-black hover:text-white dark:border-white dark:hover:bg-white dark:hover:text-black">
+    Switch Theme
+</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
